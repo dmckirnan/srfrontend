@@ -1,0 +1,19 @@
+{
+  "name": "srfrontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmckirnan/srfrontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmckirnan/srfrontend/issues"
+  },
+  "homepage": "https://github.com/dmckirnan/srfrontend#readme"
+}
