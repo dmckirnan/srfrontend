@@ -56,7 +56,12 @@ window.onload = () => {
 
   document.body.addEventListener('keydown', (e) => {
     let currentVid = document.getElementById('videoSource');
+
+    // If Using 'npm start' or localhost:4000'
     let current = '.' + currentVid.src.substring(21);
+
+    // If Using Local Index.HTML
+    // let current = '.' + currentVid.src.substring(44);
 
     if (e.code === 'ArrowLeft') {
       let target;
