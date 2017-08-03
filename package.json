@@ -19,6 +19,7 @@
   "homepage": "https://github.com/dmckirnan/srfrontend#readme",
   "dependencies": {
     "express": "^4.15.3",
+    "jquery": "^3.2.1",
     "nodemon": "^1.11.0"
   }
 }

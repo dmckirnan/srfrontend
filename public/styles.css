@@ -3,14 +3,12 @@ body {
   margin: 0;
   margin-top: 100px !important;
   padding: 0;
-  /* position: relative; */
   overflow-x: hidden;
 }
 
 #videoContainer {
   height: 80vh;
   width: 100%;
-  /* overflow: hidden; */
   position: relative;
 }
 
@@ -25,7 +23,8 @@ body {
   vertical-align: center;
   position: absolute;
   top: 82%;
-  left: 25%;
+  left: 27%;
+  right: 27%;
   width: 100%;
 }
 
@@ -44,4 +43,8 @@ body {
   max-height: 150px;
   border: 3px solid maroon;
   border-radius: 8px;
+}
+
+.selected {
+  border: 3px solid maroon !important;
 }
