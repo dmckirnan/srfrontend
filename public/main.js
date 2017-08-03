@@ -1,5 +1,6 @@
 window.onload = () => {
 
+  // Static Caches for Video and Image Assets
   const videoCache = {
     '0': "./videos/10-cloverfield-lane.webm",
     '1': "./videos/allegiant.webm",
@@ -16,6 +17,8 @@ window.onload = () => {
 
 
   let thumbnails = [];
+
+  // Create Thumbnails
   for (let i = 0; i < 4; i += 1) {
     thumbnails[i] = document.createElement('div');
     thumbnails[i].setAttribute('class', 'thumbnail');
@@ -41,12 +44,13 @@ window.onload = () => {
           videoPlayer.load();
           videoPlayer.play();
           $('#video').fadeIn();
+          $('#video').fadeIn('fast');
+          $('#video').fadeIn(1000);
           thumbnails[i].classList.add('selected');
         }, 500);
       }
     }
     let imageContainer = document.getElementById('imageContainer');
-    // videoContainer.appendChild(thumbnails[i]);
     imageContainer.appendChild(thumbnails[i]);
   }
 
